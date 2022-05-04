@@ -1,0 +1,239 @@
+
+    h1{
+        margin-left: 50px;
+        padding: 10px;
+        border: 1px solid Green;}
+    
+    h2 {
+        margin-left: 50px;
+        padding: 10px;
+        border: 1px solid Pink;
+    }
+    h3,h4,h5,h6 { text-align:center;}
+    #a{text-align:center;
+       font-family: cursive;
+       font-size: medium;
+       text-transform:capitalize;}
+    #b { text-align:left;
+        font-family:fantasy;
+        font-size: large;}
+    #c { text-align:right;
+        font-family: inherit;
+        font-size: small;}
+    #d { text-align:justify;
+        font-family: monospace;
+        font-size:smaller;}
+    #e { text-align:center;
+        font-family:sans-serif;
+        font-size:30px;
+        -webkit-animation: e 1s linear infinite;
+        animation: e 1s linear infinite;}
+    @-webkit-keyframes e {
+      100% { color: rgba(34, 34, 34, 0); }}
+    @keyframes e {
+      100% { color: rgba(34, 34, 34, 0); }}
+    #f{ text-align:center;
+        background-color:blue;
+        padding: 10px ;
+        border: 5px dashed Yellow;} 
+    #g{ grid align-content: center;}
+    #h{text-align:center;}
+    #j{list-style: none; 
+        background: url(pngegg.png) no-repeat 1 4px;
+        padding-left: 24px; }
+    
+    
+    
+    .block1 {
+        text-align: center;
+        margin:auto;
+        width: 20em;}
+    .w1{
+    list-style-type: '★';
+    transition: 1s;
+    }
+    .w1:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    
+    .w2{
+    list-style-type: '☆';
+        transition: 1s;
+    }
+    .w2:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .w3{
+    list-style-type: '✪';
+    transition: 1s;}
+    .w3:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .w4{
+    list-style-type: '✲';
+    transition: 1s;}
+    .w4:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .w5{
+    list-style-type: '⍟'
+        ;
+    }
+    .w5:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .w6{
+        list-style-type: '✫';
+        transition: 1s;}
+    .w6:hover {
+      transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    {задание 6}
+    .yandex{
+          background-color: #B0C4DE;
+          border: none;
+          color: white;
+          padding: 400px 400px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 100px;
+          margin: 5px 5px;
+          border-radius: 12px;
+    
+    
+    }
+    {задание 7}
+    .one{ opacity: 0.5;}
+    a{display: inline-block;}
+    img{transition: all .3s ease; }
+    a:hover img{opacity: 0;}
+    .pic1:hover{background-image: url("https://bugaga.ru/uploads/posts/2018-10/1538677684_osveschennye-ledniki-1.jpg");}
+    .pic{transform: scale(-1, -1);}
+    .pic1{background-size: cover;}
+    {8 задание}
+    #bord{border: solid #B0C4DE; 
+        border-radius: 10px;
+        margin-bottom: 10px;}
+    input[type=text]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 14px;
+    resize: vertical;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    transition: .3s box-shadow;    
+    }
+    input[type=submit] {
+    background-color: #B0C4DE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    float: left;
+    }
+    input[type=submit]:hover {
+    background-color: #B0E0E6;
+        border-radius: 100px;
+    }
+    {10 задание}
+    a.button1 {
+      position: relative;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: -1px -1px #000;
+      user-select: none;
+      padding: .8em 2em;
+      outline: none;
+      background-color: #000;
+      background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+      background-repeat: no-repeat;
+      background-size: 200% 100%, auto;
+      background-position: 200% 0, 0 0;
+      box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+    } 
+    a.button1:active {
+      top: 1px;
+      box-shadow: none;
+    }
+    a.button1:hover {
+      transition: .5s linear;
+      background-position: -200% 0, 0 0;
+    }
+    {11 задание}
+    div {
+      width: 100px;
+      height: 100px;
+      transform: translate(-50%, -50%);
+      position: absolute; 
+      top: 50%; 
+      left: 50%;
+    }
+    span {
+      display: block;
+      position: absolute;
+      width: 40%;
+      height: 40%;
+      border-radius: 50%;
+      box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+      -webkit-animation: run 2s infinite ease-in-out;
+      animation: run 2s infinite ease-in-out;
+    }
+    
+    .one {
+      background: #F3B222;
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s;
+    }
+    .two {
+      background: #F0653E;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+    }
+    .three {
+      background: #B9C0C0;
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+    }
+    .four {
+      background: #8F7473;
+    }
+    
+    @-webkit-keyframes run {
+      0% {
+        transform: translate(0%);
+        border-radius: 50%;
+      }
+      25% {
+        transform: translate(150%) scale(0.5); 
+        border-radius: 0%;
+      }
+      50% {
+        transform: translate(150%, 150%);
+        border-radius: 50%; 
+      }
+      75% {
+        transform: translate(0%, 150%) scale(0.5); 
+        border-radius: 0%;
+      }
+    }
+    @keyframes run {
+      0% {
+        transform: translate(0%);
+        border-radius: 50%;
+      }
+      25% {
+        transform: translate(150%) scale(0.5); 
+        border-radius: 0%;
+      }
+      50% {
+        transform: translate(150%, 150%);
+        border-radius: 50%; 
+      }
+      75% {
+        transform: translate(0%, 150%) scale(0.5); 
+        border-radius: 0%;
+      }
+    }
+    
